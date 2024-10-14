@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Pixelify Sans", sans-serif;
+
+}
+
+
+
+
+
+.Parent{
+ 
+ margin: 0;
+ display: flex;
+ align-items: center;
+
+}
+
+ header{
+  width: 100%;
+    background-color: #66257a;
+   padding: 5px 4%;
+   top: 0;
+   left: 0;
+
+   transition: .5s;
+ }
+
+ header.rolagem {
+    background-color: #66257a;
+    padding:  1%;
+ }
+
+body{
+    background-color: #1e1e1e;
+   
+}
+
+
+.logo{
+    padding-left: 10px;
+}
+
+.logo img{
+    width: 200px;
+    
+}
+
+.menu{
+    width: 100%;
+    text-align: right;
+}
+
+.menu nav a{
+    color:rgb(249, 246, 241);
+    text-decoration: none;
+   
+    margin-right: 30px;
+    font-size: 17px;
+    border: 2px #fbf5ff solid;
+    border-radius:12px;
+    border-spacing: 30px;
+    border-style: dotted;
+    padding: 12px;
+
+}
+
+
+
+    .banner{
+        height: 100vh;
+        /*height:663px;
+        width: 1263px;*/
+        background-image: url(img/fundopixilgih.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+.banner h1{
+    color: aliceblue;
+    width: 70%;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 1px;
+    
+}
+
+.banner h1 span{
+    color: #AC9D15;
+}
+

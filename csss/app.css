@@ -1,0 +1,99 @@
+.app{
+    
+       /* display: flex;
+        justify-content: center;
+        align-items: center;*/
+        display: flex;
+        justify-content: space-around;
+      
+}
+
+
+
+
+.juh{
+        border-top: 27px solid #AC9D15;
+        border-radius: 12px;
+        background-color:#66257A;
+        left: 100px;
+        padding: 10px;
+        width: 500px;
+        height: 250px;
+        margin-top: 30px;      
+        
+}
+
+.juh hr {
+    color: #AC9D15;
+    size: 3;
+    border-radius: 12px;
+    
+}
+
+.desc{
+   /* background-color: rgb(74, 64, 225);*/
+    width: 350px;
+    height: 100px;
+    position:absolute;
+    margin-right:520px;
+    margin-top: 100px;
+     
+    
+}
+
+.mini{
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 50px;
+    width: 180px;
+}
+
+ul li{
+    list-style: none;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 40px;
+    line-height: 35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.foto{
+    
+    width: 150px;
+    margin-top: 25px;
+    border-radius: 15px;
+    background-color: aqua;
+    border: 3px solid;
+    border-color: aliceblue;
+    
+}
+
+.rick{
+    border-top: 27px solid #AC9D15;
+    border-radius: 12px;
+    background-color:#66257A;
+     left: 100px;
+        padding: 10px;
+        width: 500px;
+        height: 250px;
+        margin-top: 30px;
+}
+
+
+
+.nomes{
+     color: aliceblue;
+     font-size: 28px;
+     float: right;
+     margin-right: 30px;
+    
+}
+
+.escrito{
+    color: aliceblue;
+    float: right;
+     margin-right: 30px;
+}
+
+
+
